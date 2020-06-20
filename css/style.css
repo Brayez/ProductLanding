@@ -5,13 +5,25 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .img{
+    width: 3em;
+    height: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
 .center{
     text-align: center;
 }
 
 #nav-bar
 {
-  float: left;
-
-
+  position: top;
+  float: right;
+}
+.flex-container{
+    display: flex;
 }
